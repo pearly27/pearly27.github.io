@@ -921,12 +921,8 @@ function createListRow(rItem, idx){
   }
   albumFmtDiv.textContent= info.title+" — "+ fm;
 
-  let albumYear= String(releaseData.year)
-  albumYear.textContent= albumYear
-
   textDiv.appendChild(artistDiv);
   textDiv.appendChild(albumFmtDiv);
-  textDiv.appendChild(albumYear);
 
   row.appendChild(thumb);
   row.appendChild(textDiv);
